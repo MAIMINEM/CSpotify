@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF86E31F2814051200B2DA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E31E2814051200B2DA20 /* AppDelegate.swift */; };
+		FF86E3212814051200B2DA20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3202814051200B2DA20 /* SceneDelegate.swift */; };
+		FF86E3232814051200B2DA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3222814051200B2DA20 /* ViewController.swift */; };
+		FF86E3262814051200B2DA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF86E3242814051200B2DA20 /* Main.storyboard */; };
+		FF86E3292814051200B2DA20 /* CSopity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3272814051200B2DA20 /* CSopity.xcdatamodeld */; };
+		FF86E32B2814051200B2DA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF86E32A2814051200B2DA20 /* Assets.xcassets */; };
+		FF86E32E2814051200B2DA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF86E32C2814051200B2DA20 /* LaunchScreen.storyboard */; };
+		FF86E3392814051200B2DA20 /* CSopityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3382814051200B2DA20 /* CSopityTests.swift */; };
+		FF86E3432814051200B2DA20 /* CSopityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3422814051200B2DA20 /* CSopityUITests.swift */; };
+		FF86E3452814051200B2DA20 /* CSopityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86E3442814051200B2DA20 /* CSopityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF86E3352814051200B2DA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF86E3132814051200B2DA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF86E31A2814051200B2DA20;
+			remoteInfo = CSopity;
+		};
+		FF86E33F2814051200B2DA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF86E3132814051200B2DA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF86E31A2814051200B2DA20;
+			remoteInfo = CSopity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF86E31B2814051200B2DA20 /* CSopity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSopity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF86E31E2814051200B2DA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF86E3202814051200B2DA20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF86E3222814051200B2DA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF86E3252814051200B2DA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF86E3282814051200B2DA20 /* CSopity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSopity.xcdatamodel; sourceTree = "<group>"; };
+		FF86E32A2814051200B2DA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF86E32D2814051200B2DA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF86E32F2814051200B2DA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF86E3342814051200B2DA20 /* CSopityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSopityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF86E3382814051200B2DA20 /* CSopityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSopityTests.swift; sourceTree = "<group>"; };
+		FF86E33E2814051200B2DA20 /* CSopityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSopityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF86E3422814051200B2DA20 /* CSopityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSopityUITests.swift; sourceTree = "<group>"; };
+		FF86E3442814051200B2DA20 /* CSopityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSopityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF86E3182814051200B2DA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E3312814051200B2DA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E33B2814051200B2DA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF86E3122814051200B2DA20 = {
+			isa = PBXGroup;
+			children = (
+				FF86E31D2814051200B2DA20 /* CSopity */,
+				FF86E3372814051200B2DA20 /* CSopityTests */,
+				FF86E3412814051200B2DA20 /* CSopityUITests */,
+				FF86E31C2814051200B2DA20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF86E31C2814051200B2DA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF86E31B2814051200B2DA20 /* CSopity.app */,
+				FF86E3342814051200B2DA20 /* CSopityTests.xctest */,
+				FF86E33E2814051200B2DA20 /* CSopityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF86E31D2814051200B2DA20 /* CSopity */ = {
+			isa = PBXGroup;
+			children = (
+				FF86E31E2814051200B2DA20 /* AppDelegate.swift */,
+				FF86E3202814051200B2DA20 /* SceneDelegate.swift */,
+				FF86E3222814051200B2DA20 /* ViewController.swift */,
+				FF86E3242814051200B2DA20 /* Main.storyboard */,
+				FF86E32A2814051200B2DA20 /* Assets.xcassets */,
+				FF86E32C2814051200B2DA20 /* LaunchScreen.storyboard */,
+				FF86E32F2814051200B2DA20 /* Info.plist */,
+				FF86E3272814051200B2DA20 /* CSopity.xcdatamodeld */,
+			);
+			path = CSopity;
+			sourceTree = "<group>";
+		};
+		FF86E3372814051200B2DA20 /* CSopityTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF86E3382814051200B2DA20 /* CSopityTests.swift */,
+			);
+			path = CSopityTests;
+			sourceTree = "<group>";
+		};
+		FF86E3412814051200B2DA20 /* CSopityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF86E3422814051200B2DA20 /* CSopityUITests.swift */,
+				FF86E3442814051200B2DA20 /* CSopityUITestsLaunchTests.swift */,
+			);
+			path = CSopityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF86E31A2814051200B2DA20 /* CSopity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF86E3482814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopity" */;
+			buildPhases = (
+				FF86E3172814051200B2DA20 /* Sources */,
+				FF86E3182814051200B2DA20 /* Frameworks */,
+				FF86E3192814051200B2DA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSopity;
+			productName = CSopity;
+			productReference = FF86E31B2814051200B2DA20 /* CSopity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF86E3332814051200B2DA20 /* CSopityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF86E34B2814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopityTests" */;
+			buildPhases = (
+				FF86E3302814051200B2DA20 /* Sources */,
+				FF86E3312814051200B2DA20 /* Frameworks */,
+				FF86E3322814051200B2DA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF86E3362814051200B2DA20 /* PBXTargetDependency */,
+			);
+			name = CSopityTests;
+			productName = CSopityTests;
+			productReference = FF86E3342814051200B2DA20 /* CSopityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF86E33D2814051200B2DA20 /* CSopityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF86E34E2814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopityUITests" */;
+			buildPhases = (
+				FF86E33A2814051200B2DA20 /* Sources */,
+				FF86E33B2814051200B2DA20 /* Frameworks */,
+				FF86E33C2814051200B2DA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF86E3402814051200B2DA20 /* PBXTargetDependency */,
+			);
+			name = CSopityUITests;
+			productName = CSopityUITests;
+			productReference = FF86E33E2814051200B2DA20 /* CSopityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF86E3132814051200B2DA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FF86E31A2814051200B2DA20 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FF86E3332814051200B2DA20 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FF86E31A2814051200B2DA20;
+					};
+					FF86E33D2814051200B2DA20 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FF86E31A2814051200B2DA20;
+					};
+				};
+			};
+			buildConfigurationList = FF86E3162814051200B2DA20 /* Build configuration list for PBXProject "CSopity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF86E3122814051200B2DA20;
+			productRefGroup = FF86E31C2814051200B2DA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF86E31A2814051200B2DA20 /* CSopity */,
+				FF86E3332814051200B2DA20 /* CSopityTests */,
+				FF86E33D2814051200B2DA20 /* CSopityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF86E3192814051200B2DA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF86E32E2814051200B2DA20 /* LaunchScreen.storyboard in Resources */,
+				FF86E32B2814051200B2DA20 /* Assets.xcassets in Resources */,
+				FF86E3262814051200B2DA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E3322814051200B2DA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E33C2814051200B2DA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF86E3172814051200B2DA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF86E3232814051200B2DA20 /* ViewController.swift in Sources */,
+				FF86E31F2814051200B2DA20 /* AppDelegate.swift in Sources */,
+				FF86E3212814051200B2DA20 /* SceneDelegate.swift in Sources */,
+				FF86E3292814051200B2DA20 /* CSopity.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E3302814051200B2DA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF86E3392814051200B2DA20 /* CSopityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86E33A2814051200B2DA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF86E3452814051200B2DA20 /* CSopityUITestsLaunchTests.swift in Sources */,
+				FF86E3432814051200B2DA20 /* CSopityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF86E3362814051200B2DA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF86E31A2814051200B2DA20 /* CSopity */;
+			targetProxy = FF86E3352814051200B2DA20 /* PBXContainerItemProxy */;
+		};
+		FF86E3402814051200B2DA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF86E31A2814051200B2DA20 /* CSopity */;
+			targetProxy = FF86E33F2814051200B2DA20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF86E3242814051200B2DA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF86E3252814051200B2DA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF86E32C2814051200B2DA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF86E32D2814051200B2DA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF86E3462814051200B2DA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF86E3472814051200B2DA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF86E3492814051200B2DA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSopity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF86E34A2814051200B2DA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSopity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF86E34C2814051200B2DA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSopity.app/CSopity";
+			};
+			name = Debug;
+		};
+		FF86E34D2814051200B2DA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSopity.app/CSopity";
+			};
+			name = Release;
+		};
+		FF86E34F2814051200B2DA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSopity;
+			};
+			name = Debug;
+		};
+		FF86E3502814051200B2DA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TE6L99N4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSporify.CSopityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSopity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF86E3162814051200B2DA20 /* Build configuration list for PBXProject "CSopity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF86E3462814051200B2DA20 /* Debug */,
+				FF86E3472814051200B2DA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF86E3482814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF86E3492814051200B2DA20 /* Debug */,
+				FF86E34A2814051200B2DA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF86E34B2814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF86E34C2814051200B2DA20 /* Debug */,
+				FF86E34D2814051200B2DA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF86E34E2814051200B2DA20 /* Build configuration list for PBXNativeTarget "CSopityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF86E34F2814051200B2DA20 /* Debug */,
+				FF86E3502814051200B2DA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF86E3272814051200B2DA20 /* CSopity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF86E3282814051200B2DA20 /* CSopity.xcdatamodel */,
+			);
+			currentVersion = FF86E3282814051200B2DA20 /* CSopity.xcdatamodel */;
+			path = CSopity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF86E3132814051200B2DA20 /* Project object */;
+}
